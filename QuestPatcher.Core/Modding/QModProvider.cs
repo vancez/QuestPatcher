@@ -46,10 +46,12 @@ namespace QuestPatcher.Core.Modding
 
             // Check that the package ID is correct. We don't want people installing Beat Saber mods on Gorilla Tag!
             Log.Information("Mod ID: {ModId}, Version: {ModVersion}, Is Library: {IsLibrary}", qmod.Id, qmod.Version, qmod.IsLibrary);
+            /*
             if (qmod.PackageId != null && qmod.PackageId != _config.AppId)
             {
                 throw new InstallationException($"Mod is intended for app {qmod.PackageId}, but {_config.AppId} is selected");
             }
+            */
 
             var mod = new QPMod(this, qmod.GetManifest(), _debugBridge, _filesDownloader, _modManager);
 
