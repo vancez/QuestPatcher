@@ -31,51 +31,51 @@
       "supportedExtensions": [ "png", "jpg", "jpeg" ]
     }
   ],
-  "com.beatgames.beatsaber": [
+  "com.beatgames.beatxaber": [
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/sabers/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/sabers/",
       "nameSingular": "Custom Saber",
       "namePlural": "Custom Sabers",
       "supportedExtensions": [ "qsaber" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/notes/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/notes/",
       "nameSingular": "Custom Note",
       "namePlural": "Custom Notes",
       "supportedExtensions": [ "qbloq" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/walls/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/walls/",
       "nameSingular": "Custom Wall",
       "namePlural": "Custom Walls",
       "supportedExtensions": [ "qwall" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/CustomPillows/images/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/CustomPillows/images/",
       "nameSingular": "Pillow Texture",
       "namePlural": "Pillow Textures",
       "supportedExtensions": [ "png", "jpg", "jpeg" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/CustomPillows/constellations/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/CustomPillows/constellations/",
       "nameSingular": "Pillow Constellation",
       "namePlural": "Pillow Constellations",
       "supportedExtensions": [ "json" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/Whackers/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/Whackers/",
       "nameSingular": "Whacker",
       "namePlural": "Whackers",
       "supportedExtensions": [ "whacker" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/Cyoobs/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/Cyoobs/",
       "nameSingular": "Cyoob",
       "namePlural": "Cyoobs",
       "supportedExtensions": [ "cyoob" ]
     },
     {
-      "path": "/sdcard/ModData/com.beatgames.beatsaber/Mods/Qosmetics/Boxes/",
+      "path": "/sdcard/ModData/com.beatgames.beatxaber/Mods/Qosmetics/Boxes/",
       "nameSingular": "Box",
       "namePlural": "Boxes",
       "supportedExtensions": [ "box" ]
