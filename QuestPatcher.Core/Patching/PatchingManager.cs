@@ -87,7 +87,7 @@ namespace QuestPatcher.Core.Patching
 
                 try
                 {
-                    _libUnityIndex = await client.GetFromJsonAsync<Dictionary<string, Dictionary<string, string>>>("https://raw.githubusercontent.com/Lauriethefish/QuestUnstrippedUnity/main/index.json");
+                    _libUnityIndex = await client.GetFromJsonAsync<Dictionary<string, Dictionary<string, string>>>("https://raw.githubusercontent.com/vancez/QuestUnstrippedUnity/main/index.json");
                 }
                 catch (HttpRequestException ex)
                 {
@@ -124,7 +124,7 @@ namespace QuestPatcher.Core.Patching
             try
             {
                 await _filesDownloader.DownloadUri(
-                    $"https://raw.githubusercontent.com/Lauriethefish/QuestUnstrippedUnity/main/versions/{correctVersion}.so",
+                    $"https://raw.githubusercontent.com/vancez/QuestUnstrippedUnity/main/versions/{correctVersion}.so",
                     tempDownloadPath.Path, "libunity.so");
 
                 return tempDownloadPath;
